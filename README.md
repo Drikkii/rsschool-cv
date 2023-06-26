@@ -1,2 +1,3 @@
 # rsschool-cv
-education
+
+https://drikkii.github.io/rsschool-cv/cv
