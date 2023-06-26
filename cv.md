@@ -5,7 +5,7 @@
 ## **About me**
 
 `I am 28 years old . I am a simple guy from Moscow. I currently live in Antalya (Türkiye). I decided to try to learn programming, I am determined and serious.`
-
+**My best qualities**
 
 - _Teamwork_
 - _Stress resistance_
