@@ -252,6 +252,30 @@ h1 {
 .margit-left2 {
   margin-left: 9rem;
 }
+
+/* projects */
+.projects {
+  margin: 3rem;
+}
+.projektooo {
+  transition: 1s;
+  margin: 1rem;
+  background-color: blueviolet;
+  width: 300px;
+  height: 300px;
+}
+.projektooo:hover {
+  transform: scale(1.2);
+}
+.projekt-flex {
+  display: flex;
+}
+.projektooo-text {
+  height: 20px;
+  width: 300px;
+  text-align: center;
+  margin: 2rem;
+}
 /* hobbies */
 .Hobbies {
   margin: 3rem;
