@@ -254,6 +254,17 @@ h1 {
 }
 
 /* projects */
+.icon-project {
+  width: 5%;
+}
+.prokectru {
+  height: 100%;
+  width: 100%;
+}
+.landingru {
+  height: 100%;
+  width: 100%;
+}
 .projects {
   margin: 3rem;
 }
