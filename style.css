@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  background-color: rgba(204, 167, 0, 1);
+}
+.main-container {
+  box-shadow: 10px 10px 50px 0 black;
+  margin: 0 auto;
+  width: 1100px;
+  background-color: white;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+a {
+  transition: 1s linear;
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+ul {
+  list-style: none;
+}
+h1 {
+  font-family: "Courier New", Courier, monospace;
+
+  font-size: 4rem;
+}
+
+/* Header */
+.header {
+  position: relative;
+  width: 1100px;
+  display: flex;
+}
+.header-avatar {
+  width: 30%;
+  float: none;
+}
+.avatar {
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  background-color: rgb(255, 215, 57);
+}
+.header-section {
+  width: 70%;
+}
+.p-header {
+  width: 100%;
+  font-size: 2rem;
+  text-align: left;
+}
+.name {
+  text-align: left;
+  margin: 3rem;
+}
+.nav-menu {
+  height: 30px;
+  background-color: rgba(240, 240, 240);
+  position: relative;
+  align-items: center;
+
+  margin: 1rem;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.nav-menu-link {
+  color: red;
+  text-decoration: none;
+}
+.site-navigation {
+  justify-content: space-between;
+  margin: o auto;
+  display: flex;
+}
+
+/* Main */
+.main-section {
+  width: 100%;
+  display: flex;
+}
+
+.column {
+  background-color: rgb(246, 246, 246);
+  width: 30%;
+}
+.column-main {
+  width: 70%;
+}
+
+/* contact block */
+.contact {
+  margin: 3rem;
+}
+
+.contact-img {
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.contact-img-github {
+  background-image: url(../rsschool-cv/img/github.svg);
+}
+.contact-img-vk {
+  background-image: url(../rsschool-cv/img/vk.svg);
+}
+.contact-img-mail {
+  background-image: url(../rsschool-cv/img/email.svg);
+}
+.contact-img-map {
+  background-image: url(../rsschool-cv/img/map.svg);
+}
+
+.contact-block {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* Education block */
+.Education {
+  margin: 3rem;
+}
+.Education-block {
+  margin-bottom: 1rem;
+}
+.years-education {
+  margin-bottom: 1rem;
+  text-align: center;
+
+  background-color: rgba(240, 18, 18, 0.66);
+}
+/* language */
+.languege {
+  margin: 3rem;
+}
+/* skills */
+.skills {
+  margin: 3rem;
+}
+.skills-block {
+  margin-bottom: 1rem;
+  display: flex;
+}
+.skill-list {
+  margin-left: 10px;
+  align-items: center;
+  display: flex;
+}
+.skill-list-item {
+  transition: all 0.1s linear;
+  margin-right: 5px;
+  margin-left: 5px;
+
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  background-color: red;
+}
+.skill-list-item:hover {
+  height: 11px;
+}
+.skill-list-item-grey {
+  background-color: grey;
+}
+.skill-text {
+  width: 100px;
+}
+
+/* About */
+.about {
+  width: 50%;
+  margin: 3rem;
+}
+#about-size {
+  font-style: italic;
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+}
+
+/* work exp */
+.work-exp {
+  width: 50%;
+  margin: 3rem;
+}
+#about-size {
+  font-style: italic;
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+}
+.work-exp-text {
+  margin-left: 30px;
+}
+
+/* javascript */
+.code-javascript {
+  position: relative;
+  margin: 3rem;
+
+  align-self: center;
+  width: 100%;
+}
+.js-code-language {
+  font-size: 1.2rem;
+  padding: 1rem;
+  color: white;
+  height: 200px;
+  width: 80%;
+  background-color: #202026;
+}
+.js-size-form {
+  margin: 2rem;
+}
+.key-word {
+  color: aqua;
+
+  margin-left: 5rem;
+}
+.element-colores {
+  color: rgb(223, 197, 78);
+}
+.element-yellow {
+  color: rgb(255, 255, 35);
+}
+.orange-color {
+  color: orange;
+}
+.blue-func {
+  color: blue;
+}
+.code-purple {
+  color: rgb(255, 11, 255);
+}
+.color-number {
+  color: rgba(161, 191, 115, 0.756);
+}
+.margin-left {
+  margin-left: 7rem;
+}
+.margit-left2 {
+  margin-left: 9rem;
+}
+
+/* projects */
+.projects {
+  margin: 3rem;
+}
+.projektooo {
+  transition: 1s;
+  margin: 1rem;
+  background-color: blueviolet;
+  width: 300px;
+  height: 300px;
+}
+.projektooo:hover {
+  transform: scale(1.2);
+}
+.projekt-flex {
+  display: flex;
+}
+.projektooo-text {
+  height: 20px;
+  width: 300px;
+  text-align: center;
+  margin: 2rem;
+}
+/* hobbies */
+.Hobbies {
+  margin: 3rem;
+}
+
+/* footer */
+.footer {
+  align-items: center;
+  box-shadow: 10px 10px 50px 0 black;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  background-color: white;
+  height: 50px;
+  width: 1100px;
+}
+.footer-section {
+  margin-left: 20.5rem;
+  display: flex;
+  height: 50px;
+  margin-top: 1rem;
+  background-color: white;
+  width: 500px;
+}
+.github-sett {
+  color: black;
+  text-align: center;
+}
+.github {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.years {
+  margin-left: 2rem;
+  color: black;
+}
+.rs-school {
+  margin-left: 2rem;
+  width: 50px;
+}
+.link-pre-school {
+  margin-left: 2rem;
+}
